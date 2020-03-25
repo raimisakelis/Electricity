@@ -1,0 +1,60 @@
+
+.wrapper{
+  .col-md-12{
+    .table_wrapper{
+      table{
+        border-collapse: collapse;
+        min-width: 500px;
+        min-height: 100px;
+        th, td{
+          border: 1px solid black;
+          .name, .surname {
+            width:100px;
+            height: auto;
+          }
+
+          .works{
+            width: 150px;
+            min-height:auto;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+.wrapper{
+  .options_wrapper{
+    button.hidden{
+      display:none;
+    }
+  }
+}
+
+
+
+
+
+.wrap{
+
+  .col-md-6 {
+    float: left;
+
+
+     .right {
+
+        #authors_table table{
+
+            th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+        }
+     }
+  }
+}
+
+
+

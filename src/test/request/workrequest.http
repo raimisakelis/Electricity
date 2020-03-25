@@ -1,0 +1,50 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+
+
+GET http://localhost:8080/electricity/api/work/1
+Accept: application/json
+
+###
+
+POST http://localhost:8080/electricity/api/work/save
+Content-Type: application/json
+
+{
+  "authorId": "1",
+  "yearOfWork": "1960",
+  "contentOfTheWork": "Pagamino motobliūdą."
+}
+
+###
+
+DELETE http://localhost:8080/electricity/api/work/delete/6
+Content-Type: application/json
+
+###
+
+
+PUT http://localhost:8080/electricity/api/work/update/7
+Content-Type: application/json
+
+{
+  "authorId": "1",
+  "yearOfWork": "1960",
+  "contentOfTheWork": "Išrado dviratį."
+}
+
+###
+
+
+//parameters as QueryParam
+GET http://localhost:8080/electricity/api/work/list?size=3&skip=2
+Accept: application/json
+
+###
+

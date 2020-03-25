@@ -1,0 +1,8 @@
+lt\bta\java\jpa\dao\Dao.class
+lt\bta\java\jpa\dao\DaoImp.class
+lt\bta\java\api\ObjectMapperContextResolver.class
+lt\bta\java\jpa\PersistenceUtil.class
+lt\bta\java\api\RestApp.class
+lt\bta\java\A.class
+lt\bta\java\entities\Author.class
+lt\bta\java\jpa\PersistenceListener.class
